@@ -1,0 +1,19 @@
+--- DOCUMENTACIÓN ---
+
+Almacenamiento de cada uno de los tipos de datos primitivos
+
+Números enteros:
+byte: Representa enteros de 8 bits con signo. Rango: -128 a 127.
+short: Representa enteros de 16 bits con signo. Rango: -32,768 a 32,767.
+int: Representa enteros de 32 bits con signo. Rango: -2,147,483,648 a 2,147,483,647.
+long: Representa enteros de 64 bits con signo. Rango: -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807.
+
+Números de punto flotante:
+float: Representa números de punto flotante de 32 bits. Rango: aproximadamente ±1.4e-45 a ±3.4e+38. El tipo float tiene una precisión limitada en comparación con el tipo double.
+double: Representa números de punto flotante de 64 bits. Rango: aproximadamente ±4.9e-324 a ±1.7e+308. El tipo double proporciona una mayor precisión que el tipo float.
+
+Caracteres:
+char: Representa un solo carácter Unicode de 16 bits. Puede almacenar caracteres individuales y valores numéricos Unicode. Rango: '\u0000' (0) a '\uffff' (65,535).
+
+Booleanos:
+boolean: Representa un valor booleano que puede ser true o false. No se puede especificar el rango de almacenamiento ya que solo existen dos valores posibles.

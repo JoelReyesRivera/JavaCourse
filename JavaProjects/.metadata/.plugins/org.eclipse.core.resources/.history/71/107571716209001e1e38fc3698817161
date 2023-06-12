@@ -1,0 +1,41 @@
+
+public class Estructuras {
+
+	public static void main(String[] args) {
+		
+		//ESTRUCTURA IF
+		if (true) {
+			
+		}
+		else {
+			System.out.println(" ");
+		}
+		
+		//SWITCH
+		switch ("cadena") {
+		case "cadena1":
+			
+			break;
+		case "cadena2":
+			
+			break;
+		case "cadena3":
+			break;
+
+		default:
+			break;
+		}
+		
+		//FOR
+		for (int i = 0; i < 10; i++) {
+			
+		}
+		
+		//WHILE
+		while (true) {
+			
+		}
+		
+		
+	}
+}
