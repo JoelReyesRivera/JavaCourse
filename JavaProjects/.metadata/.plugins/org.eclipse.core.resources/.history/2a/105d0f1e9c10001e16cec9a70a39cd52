@@ -1,0 +1,23 @@
+package Arreglos;
+
+public class Arreglos {
+
+	public static void main(String[] args) {
+		
+		//DECLARAR UN ARREGLO
+		boolean[] arreglo = new boolean[5];
+
+		
+		//INDICES 0,1,2,3,4,5...N
+		//ALMACENAMIENTO 1,2,3,4,5...N
+		//EJEMPLO
+		// 0 1  2  3  4  Indices 
+		//[] [] [] [] [] Casillas de almacenamiento
+		// ALMACENAMIENTO = CANTIDAD DE DATOS QUE SE PUEDEN GUARDAR
+		//SI EL ARREGLO TIENE N CANTIDAD DE CASILLAS
+		// LA ULTIMA CASIILA TENDRA EL INDICE DE N-1
+		
+		System.out.println(arreglo);
+	}
+
+}
